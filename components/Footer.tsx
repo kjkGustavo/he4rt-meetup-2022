@@ -18,7 +18,7 @@ const Footer = () => (
         <p className="text-white text-lg">
           Desenvolvido por{' '}
           <a
-            href="https://gustavolimal.dev"
+            href="https://gustavolima.dev"
             className="text-[#181818] font-bold"
           >
             Gustavo Lima
