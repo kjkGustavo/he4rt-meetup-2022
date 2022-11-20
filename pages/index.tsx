@@ -255,8 +255,8 @@ export default function Home() {
         <iframe
           src="https://player.twitch.tv/?channel=danielhe4rt&parent=localhost"
           className="w-full h-[400px] lg:w-[700px] lg:h-[350px] mt-16 mb-2"
-          frameborder="0"
-          allowfullscreen="true"
+          frameBorder="0"
+          allowFullScreen={true}
           scrolling="no"
         ></iframe>
         <a
