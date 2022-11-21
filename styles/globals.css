@@ -9,6 +9,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #020202;
+  scrollbar-color: #782bf1 #020202 !important;
 }
 
 a {
@@ -22,4 +23,18 @@ a {
 
 ::selection {
   background: #782bf1;
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #020202;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  background-color: #020202;
+  background: #782bf1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #782bf1;
 }
