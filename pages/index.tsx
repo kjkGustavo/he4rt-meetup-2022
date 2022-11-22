@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Image from 'next/image'
 import CTA from '../components/CTA'
 import Footer from '../components/Footer'
@@ -136,6 +137,71 @@ const timeline: TimelineItemProps[] = [
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>He4rt Meetup - Primeiro evento presencial</title>
+        <meta
+          name="title"
+          content="He4rt  Meetup - Primeiro evento presencial"
+        />
+        <meta
+          name="description"
+          content="Participe do primeiro evento presencial da He4rt Developers, que reúne os nosso membros presencialmente e virtualmente pra troca de conhecimentos, networking e unir cada vez mais nossa comunidade."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://metatags.io/" />
+        <meta
+          property="og:title"
+          content="He4rt  Meetup - Primeiro evento presencial"
+        />
+        <meta
+          property="og:description"
+          content="Participe do primeiro evento presencial da He4rt Developers, que reúne os nosso membros presencialmente e virtualmente pra troca de conhecimentos, networking e unir cada vez mais nossa comunidade."
+        />
+        <meta
+          property="og:image"
+          content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta
+          property="twitter:title"
+          content="He4rt  Meetup - Primeiro evento presencial"
+        />
+        <meta
+          property="twitter:description"
+          content="Participe do primeiro evento presencial da He4rt Developers, que reúne os nosso membros presencialmente e virtualmente pra troca de conhecimentos, networking e unir cada vez mais nossa comunidade."
+        />
+        <meta
+          property="twitter:image"
+          content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+        />
+      </Head>
+      <a
+        href="https://twitter.com/intent/tweet?hashtags=He4rtMeetup2022&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&related=twitterapi%2Ctwitter&text=Já garanti meu ingresso, bora?! 💜&url=https%3A%2F%2Fmeetup.heartdevs.com&via=He4rtDevs"
+        className="fixed bg-[#1d9bf0] p-4 rounded-full bottom-5 right-5 shadow-md z-50 hover:scale-110 transition-all delay-100"
+      >
+        <svg
+          width="25"
+          height="25"
+          viewBox="0 0 48 48"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_1514_2)">
+            <path
+              d="M15.1003 43.5001C33.2091 43.5001 43.1166 28.4935 43.1166 15.4838C43.1166 15.062 43.1072 14.6307 43.0884 14.2088C45.0158 12.815 46.679 11.0886 48 9.11072C46.205 9.90932 44.2993 10.4309 42.3478 10.6576C44.4026 9.42594 45.9411 7.49107 46.6781 5.21166C44.7451 6.35724 42.6312 7.16535 40.4269 7.60134C38.9417 6.02324 36.978 4.97835 34.8394 4.62822C32.7008 4.27809 30.5064 4.64222 28.5955 5.66431C26.6846 6.68641 25.1636 8.30953 24.2677 10.2827C23.3718 12.256 23.1509 14.4694 23.6391 16.5807C19.725 16.3843 15.8959 15.3675 12.4 13.5963C8.90405 11.8251 5.81939 9.339 3.34594 6.29916C2.0888 8.46661 1.70411 11.0314 2.27006 13.4723C2.83601 15.9132 4.31013 18.047 6.39281 19.4401C4.82926 19.3905 3.29995 18.9695 1.93125 18.212V18.3338C1.92985 20.6084 2.7162 22.8133 4.15662 24.5737C5.59704 26.334 7.60265 27.5412 9.8325 27.9901C8.38411 28.3864 6.86396 28.4441 5.38969 28.1588C6.01891 30.115 7.24315 31.8259 8.89154 33.0528C10.5399 34.2797 12.5302 34.9613 14.5847 35.0026C11.0968 37.7423 6.78835 39.2284 2.35313 39.2213C1.56657 39.2201 0.780798 39.1719 0 39.077C4.50571 41.9676 9.74706 43.5029 15.1003 43.5001Z"
+              fill="white"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_1514_2">
+              <rect width="48" height="48" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </a>
       <main
         className="h-screen bg-[#020202] after:absolute after:h-1 after:bottom-0 after:w-full after:bg-gradient-to-r after:from-[#0d0d0d] after:via-[#782bf1] after:to-[#0d0d0d] after:left-0 after:right-0 overflow-hidden"
         style={{
