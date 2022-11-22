@@ -177,6 +177,7 @@ export default function Home() {
           property="twitter:image"
           content="https://meetup.heartdevs.com/background-meetup.png"
         />
+        <meta name="theme-color" content="#782bf1" />
       </Head>
       <a
         href="https://twitter.com/intent/tweet?hashtags=He4rtMeetup2022&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&related=twitterapi%2Ctwitter&text=Já garanti meu ingresso, bora?! 💜&url=https%3A%2F%2Fmeetup.heartdevs.com&via=He4rtDevs"
