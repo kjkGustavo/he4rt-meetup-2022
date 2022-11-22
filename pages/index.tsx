@@ -158,10 +158,7 @@ export default function Home() {
           property="og:description"
           content="Participe do primeiro evento presencial da He4rt Developers, que reúne os nosso membros presencialmente e virtualmente pra troca de conhecimentos, networking e unir cada vez mais nossa comunidade."
         />
-        <meta
-          property="og:image"
-          content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
-        />
+        <meta property="og:image" content="/background-meetup.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://metatags.io/" />
@@ -173,10 +170,7 @@ export default function Home() {
           property="twitter:description"
           content="Participe do primeiro evento presencial da He4rt Developers, que reúne os nosso membros presencialmente e virtualmente pra troca de conhecimentos, networking e unir cada vez mais nossa comunidade."
         />
-        <meta
-          property="twitter:image"
-          content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
-        />
+        <meta property="twitter:image" content="/background-meetup.png" />
       </Head>
       <a
         href="https://twitter.com/intent/tweet?hashtags=He4rtMeetup2022&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&related=twitterapi%2Ctwitter&text=Já garanti meu ingresso, bora?! 💜&url=https%3A%2F%2Fmeetup.heartdevs.com&via=He4rtDevs"
