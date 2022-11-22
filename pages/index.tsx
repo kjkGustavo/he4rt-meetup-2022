@@ -163,18 +163,18 @@ export default function Home() {
           content="https://meetup.heartdevs.com/background-meetup.png"
         />
 
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://meetup.heartdevs.com/" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://meetup.heartdevs.com/" />
         <meta
-          property="twitter:title"
+          name="twitter:title"
           content="He4rt  Meetup - Primeiro evento presencial"
         />
         <meta
-          property="twitter:description"
+          name="twitter:description"
           content="Participe do primeiro evento presencial da He4rt Developers, que reúne os nosso membros presencialmente e virtualmente pra troca de conhecimentos, networking e unir cada vez mais nossa comunidade."
         />
         <meta
-          property="twitter:image"
+          name="twitter:image"
           content="https://meetup.heartdevs.com/background-meetup.png"
         />
         <meta name="theme-color" content="#782bf1" />
