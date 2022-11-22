@@ -163,7 +163,6 @@ export default function Home() {
           content="https://meetup.heartdevs.com/background-meetup.png"
         />
 
-        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://meetup.heartdevs.com/" />
         <meta
           name="twitter:title"
@@ -173,15 +172,20 @@ export default function Home() {
           name="twitter:description"
           content="Participe do primeiro evento presencial da He4rt Developers, que reúne os nosso membros presencialmente e virtualmente pra troca de conhecimentos, networking e unir cada vez mais nossa comunidade."
         />
-        <meta
-          name="twitter:image"
-          content="https://meetup.heartdevs.com/background-meetup.png"
-        />
-        <meta
-          property="twitter:image"
-          content="https://meetup.heartdevs.com/background-meetup.png"
-        />
         <meta name="twitter:creator" content="@He4rtDevs" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@He4rtDevs" />
+        <meta name="twitter:creator" content="@He4rtDevs" />
+        <meta property="og:url" content="https://meetup.heartdevs.com" />
+        <meta property="og:title" content="A Twitter for My Sister" />
+        <meta
+          property="og:description"
+          content="Participe do primeiro evento presencial da He4rt Developers, que reúne os nosso membros presencialmente e virtualmente pra troca de conhecimentos, networking e unir cada vez mais nossa comunidade."
+        />
+        <meta
+          property="og:image"
+          content="https://meetup.heartdevs.com/background-meetup.png"
+        />
         <meta name="theme-color" content="#782bf1" />
       </Head>
       <a
