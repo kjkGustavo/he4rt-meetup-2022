@@ -11,22 +11,22 @@ const presencialWedo: WedoProps[] = [
   {
     name: 'Networking',
     description:
-      'teremos na festa o estande de acessórios da Punky Kills & de roupas da Lobo Bobo! Você curte a festa já num lookinho renovado!'
+      'Faça networking com todos os membros da nossa comunidade e crie relações profissionais!'
   },
   {
     name: 'Brindes',
     description:
-      'teremos na festa o estande de acessórios da Punky Kills & de roupas da Lobo Bobo! Você curte a festa já num lookinho renovado!'
+      'Teremos brindes exclusivos para todos os membros presente no evento! Já temos alguns brindes separados. 👀'
   },
   {
     name: 'Coffebreak',
     description:
-      'teremos na festa o estande de acessórios da Punky Kills & de roupas da Lobo Bobo! Você curte a festa já num lookinho renovado!'
+      'Nosso evento terá bebidas, comidinhas e muito mais para todos os membros usufruir 🍔'
   },
   {
     name: 'Conteúdos exclusivos',
     description:
-      'teremos na festa o estande de acessórios da Punky Kills & de roupas da Lobo Bobo! Você curte a festa já num lookinho renovado!'
+      'Uma grande variedade de palestrantes com uma diversidade de conteúdos para todos os níveis e tecnologias!'
   }
 ]
 
