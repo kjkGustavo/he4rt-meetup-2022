@@ -177,6 +177,11 @@ export default function Home() {
           name="twitter:image"
           content="https://meetup.heartdevs.com/background-meetup.png"
         />
+        <meta
+          property="twitter:image"
+          content="https://meetup.heartdevs.com/background-meetup.png"
+        />
+        <meta name="twitter:creator" content="@He4rtDevs" />
         <meta name="theme-color" content="#782bf1" />
       </Head>
       <a
